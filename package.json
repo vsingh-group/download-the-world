@@ -1,0 +1,38 @@
+{
+  "name": "gmaps-data-extraction",
+  "version": "1.0.0",
+  "description": "Extracting 3D model pictures from Google Maps and Google Earth.",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhay-venkatesh/gmaps-data-extraction.git"
+  },
+  "keywords": [
+    "headless",
+    "browser",
+    "google",
+    "maps",
+    "earth",
+    "3D",
+    "models"
+  ],
+  "author": "Abhay Venkatesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhay-venkatesh/gmaps-data-extraction/issues"
+  },
+  "homepage": "https://github.com/abhay-venkatesh/gmaps-data-extraction#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {
+    "chance": "^1.0.11",
+    "jquery": "^3.2.1",
+    "mkdirp": "^0.5.1",
+    "nightmare": "^2.10.0",
+    "vo": "^4.0.2"
+  }
+}
