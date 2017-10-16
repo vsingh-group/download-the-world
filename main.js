@@ -50,8 +50,8 @@ var run = function* (urls) {
 var batchCount = 0;
 var urls = [];
 
-var lat_0 = 40.69;
-var long_0 = 73.9;
+var lat_0 = 43.0975946;
+var long_0 = 89.5017938;
 var plus_minus = [ -1, 1 ];
 
 while(batchCount < 5) {
@@ -62,8 +62,8 @@ while(batchCount < 5) {
   });
 
   // Generate random latitude and longitude
-  var lat = lat_0 + (plus_minus[chance.integer({min: 0, max: 1})] * chance.floating({min: 0.00001, max: 0.09999}));
-  var long = long_0 + (plus_minus[chance.integer({min: 0, max: 1})] * chance.floating({min: 0.00010, max: 0.09999}));
+  var lat = lat_0 + (plus_minus[chance.integer({min: 0, max: 1})] * chance.floating({min: 0.00001, max: 0.00999}));
+  var long = long_0 + (plus_minus[chance.integer({min: 0, max: 1})] * chance.floating({min: 0.00001, max: 0.00999}));
   var heading = chance.floating({min: 0, max: 360});
 
   // Url pieces
